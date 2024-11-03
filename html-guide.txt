@@ -1,0 +1,205 @@
+
+HTML - hypertext markup language 
+      It has collections of pre-defined tags.
+      the html tag use to create basic structure of webpage.
+      using html tags we can collect input for user 
+      using html we can display output user. 
+      The html tags has limited property and value due to this limitations css is required.
+
+
+how it work?
+
+responsive webpage = HTML (tags) + CSS (property & value) 
+
+tags?
+   <>  open tag
+   </> close tag
+
+type of tags in HTML ?
+   1. input tag - it use to collect input for user by a web browser 
+   2. output tag - it use to display output to user by a web browser
+
+structure of tag?
+    1. dependent tag - those html tag, that open seprate and close seprate 
+       example
+         <html> </html>
+         <body> </body> 
+         <h1> </h1>
+
+    2. independent tag - those html tags, that has only open.
+       example 
+         <br>
+         <hr>
+         <img>
+     note - it wil not work in angular/ React
+
+    3. self closing tag - those html tags, that open and close together 
+       example 
+         <br/>
+         <hr/>
+         <img/>
+        
+
+Behavior of html tags?
+    1. block level - if html tag print statement in new line by default.
+    2. inline - if html tag print statement in same line (side by side) by default. 
+
+    Note - using CSS 
+         ->block level tags can be convert into inline. 
+         ->inline tag can be convert into block level.  
+
+----------------------------------------------------------------------------------------
+
+The 7 rules about html tags 
+   1. input - it collect input from user.
+   2. output tag - it display to user. 
+   3. dependent tag - if tag has open and close seprate 
+   4. independent - if the has only open 
+   5. sel slosing tag -  if tag open and close together 
+   6. Block level tag - if tag print statement in new line 
+   7. Inline tag - if tag print statement in same line - side by side 
+
+------------------------------------------------------------------------------------------
+The valid extension of html document ?
+     .html - this is based for digital marketing... 
+     .htm 
+------------------------------------------------------------------------------------------
+   2 Rules from w3schools to create a browser independent webpage.
+     ->the tag open 1st should get close in last.
+     ->the tag open in last should get close 1st.
+------------------------------------------------------------------------------------------
+   The different name of html tags in other language. 
+      <h1>    - html (tag)
+      <h1>    - css (selector) 
+      <h1>    - js (element) 
+      <h1>    - reactt (jsx element) 
+------------------------------------------------------------------------------------------
+   <!DOCTYPE html>
+      ->it inform to browser that current document may have html5 tags also. Be ready to execute. 
+-----------------------------------------------------------------------------------------------------
+   structure of html document ? 
+      html start to html end called decoment 
+        html document devide into 2 section 
+
+        =>html 
+          ->head 
+             ->marketing section (digital marketing) 
+             ->library section (css, js)
+          ->body 
+             -> contents with suitable tags 
+-----------------------------------------------------------
+      h1 to h6 is called heading tag. 
+           it use to create headline of webpage
+           use h1 one time in every page 
+      p, label - it uset to display text data in webpage. 
+           follow p tag if text is multiple line.
+           follow label , b, i, u, strong, span for single of text data.
+-----------------------------------------------------------------------------
+   Type of list in html?
+      1. UL - un order list - 4 type 
+          type = "disc" 
+          type = "square" 
+          type = "circle"
+          type = "none"
+
+      2. OL - order list - 5 type 
+          type = "1"
+          type = "A"
+          type = "a"
+          type = "I"
+          type = "i"
+       start - it change the default starting position 
+       reversed - it print list in decending order 
+
+      3. DL - definition list 
+         dt - definition title 
+         dd - definition details 
+==============================================================
+
+Page Linking in html 
+     <a href="" target="" title=""> Some Text For Link </a>
+     example 
+     <s href="classvideo.html" target ="_new" title="infocampus Class Video Login"> Login For Video </a>
+
+     a - it is a tag name
+     href - it is a property use to set url of next page 
+     target - it set the location thaty where next page will open 
+     title - it is for digital marketing / google search 
+
+
+    home.html
+    product.html
+
+    target="_self" : it open next page in same tab. it is default target </p>
+    target="_new" : it open next page in same new tab but only 1st time click.</p>
+    target="_blank" : it open next page in new tab every click </p>
+----------------------------------------------------------------------------------------
+
+  Table in html
+   tghere are 2 method 
+    1st method 
+     ->caption 
+     ->tr(table row)
+          ->th(table heading)
+          ->td(table data) 
+   note - it do not support react and angular 
+
+    2nd method 
+      =>table
+         ->thead
+             ->tr
+                 ->th      
+         ->tbody
+             ->tr
+                 ->td
+         ->tfoot
+             ->tr
+                 ->th
+    note - it support angular and React
+
+  =>property and value in table, tr, th, td, thead, tbody, tfoot 
+     ->align (left, center, right) 
+     ->valign (top, middle, bottom)
+     ->border (-)
+     ->border color
+     ->cellpadding - it apply space inside th and td 
+     ->cellspacing - it apply space outside of th and td 
+   table.html
+-----------------------------------------------------  
+
+   Input tags 
+      ->text
+      ->password
+      ->email
+      ->number
+      ->file
+      ->textarea   
+      ->data
+      ->selector
+      ->checkbox
+      ->radio
+      ->button
+           ->submit                
+           ->reset
+------------------------------------------------------
+    Proterty and value in input element.
+      placeholder- it is for input guidence.
+      maxlength - it use to limit that how many character the user can enter.
+                   (text, email, password, textarea)
+      size - it increase the width of text, email, password 
+      rows - it resize height of textarea
+      cols - it resize width of textarea
+      tabindex - it set sequence of cursor 
+
+   Form - it is parent tag of all the input tags. 
+       action - it is to set URL for backend where form data should get submitted. 
+       method - it is use to set type of communication as secure or unsecure
+            ->get - it pass data from browser URL and fully visible. so it is unsecure
+            ->post -  it pass data hidden no visible of fully secure 
+            ->put 
+            ->patch
+            ->delete 
+       readonly - it do not allow to edit the value but it can pass to backend 
+       disabled - it do allow to edit even it do not pass value to backend 
+------------------------------------------------------------------------------------
+   
